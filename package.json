@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "new-folder-5",
   "version": "1.0.0",
   "description": "A simple Express.js REST API for managing books",
@@ -6,6 +7,18 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest --watchAll=false"
+=======
+  "name": "assignment4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+>>>>>>> 71d56b397c281c8ef7a937129fa0bec5d74d111e
   },
   "keywords": [],
   "author": "",
@@ -15,7 +28,12 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "jest": "^30.2.0",
     "supertest": "^7.1.4"
+=======
+    "jest": "^30.0.3",
+    "supertest": "^7.1.1"
+>>>>>>> 71d56b397c281c8ef7a937129fa0bec5d74d111e
   }
 }
